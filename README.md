@@ -64,7 +64,7 @@ E) Then, open the MX file as a workspace in STM32CubeIDE, and copy the user-code
 - In CubeIDE go to Project Settings -> "C/C++ Build" group -> Settings -> "Tool Settings" tab -> MCU Post build outputs -> "Convert to Intel Hex file" check box & "Convert to Binary File" check box
 ![image](https://user-images.githubusercontent.com/99779654/221006198-ff21c063-1099-4df5-8931-2e15e52d81bf.png)
 
-F) Then, open STLink Utility, and while your STM32 is connected, click on connect. The green bar should quickly reach the end when fully connected and registers may have binary written in the body section of STLink. Once connected, click on Open file, and upload your .bin/.hex file from where it was generated when you last built your project. Next, click on "Program". 
+F) Then, open STLink Utility, and while your STM32 is connected, click on connect. The green bar should quickly reach the end when fully connected and registers may be written in the body section of STLink. Once connected, click on Open file, and upload your .bin/.hex file from where it was generated when you last built your project. Next, click on "Program". 
 ![image](https://user-images.githubusercontent.com/99779654/221007401-94d697c0-c1d7-400f-b850-b0724ace6be1.png)
 
 
