@@ -69,12 +69,14 @@ F) Then, open STLink Utility, and while your STM32 is connected, click on connec
 
 
 G) To view the polling temperature and humidity values, install Tera Term, connect to COM3, Hit Setup -> Serial Port -> Speed #115200, and exit. To properly show inline values in Tera Term go to Setup->Terminal->New-Line->Receive:LF, Transmit: LF.
+
 ![image](https://user-images.githubusercontent.com/99779654/221007548-30489d12-da2a-4f45-b269-ed5bc2530546.png)
 
 From here, you should be seeing the Temperature, and Humidity values of your BME680! 
 
 Note: Pressure values are not being outputted due to equilibrium of the closed chamber and the corresponding polling rate of this device.
 If the project is working you should be seeing this!
-[Screen Shot 2023-02-23 at 2 16 08 PM](https://user-images.githubusercontent.com/99779654/221008001-c5fbdf26-e28b-4a90-9e35-07d78068423e.png)
+
+![Screen Shot 2023-02-23 at 2 16 08 PM](https://user-images.githubusercontent.com/99779654/221008001-c5fbdf26-e28b-4a90-9e35-07d78068423e.png)
 
 
