@@ -1,10 +1,10 @@
 # Just-Breathe
 
-# ABOUT THIS PROJECT
+# About:
 
 This current iteration of "Just-Breathe" has been modified to detect respiration rate by using measured deviations in temperature and pressure. This project uses an STM324F and a Bosch BME680 680 sensor embedded within a clinical oxygen mask that will poll for respiration rate using temperature deviations in a closed chamber. If a patient stops breathing for over 5 seconds, the microcontroller will signal an alarm. This device can be used to detect Sleep Apnea, Respiration Rate, and Suddent Infantile Death Syndrome (SUDS). BME680 sensor data is also included within this repository for personal use. 
 
-# WHAT YOU'LL NEED
+# What you'll need:
 
 Install STM32 Cube IDE:
 https://www.st.com/en/development-tools/stm32cubeide.html
@@ -27,7 +27,7 @@ STM32F429I-DISC1:
 This project was created with an STM32429I Discovery Board and configured usng the STM32 Cube MX initialization code. If you are using a different micrcontroller, you will need to make appropriate adjustments on the STM32CubeMX Platform accordingly. 
 https://www.st.com/en/evaluation-tools/32f429idiscovery.html
 
-#H OW TO RUN?
+# How to run:
 
 A) Fork this repository: 
 1) Navigate to the Just-Breathe project at https://github.com/oscarabreu/Just-Breathe.
