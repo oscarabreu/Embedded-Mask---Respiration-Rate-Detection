@@ -27,7 +27,7 @@ STM32F429I-DISC1:
 This project was created with an STM32429I Discovery Board and configured usng the STM32 Cube MX initialization code. If you are using a different micrcontroller, you will need to make appropriate adjustments on the STM32CubeMX Platform accordingly. 
 https://www.st.com/en/evaluation-tools/32f429idiscovery.html
 
-#HOW TO RUN?
+#H OW TO RUN?
 
 A) Fork this repository: 
 1) Navigate to the Just-Breathe project at https://github.com/oscarabreu/Just-Breathe.
