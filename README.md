@@ -1,8 +1,8 @@
-# Just-Breathe
+# STM32 - Respiration Rate Detection - Embedded Oxygen Mask
 
 # About:
 
-This current iteration of "Just-Breathe" has been modified to detect respiration rate by using measured deviations in temperature and pressure. This project uses an STM324F and a Bosch BME680 680 sensor embedded within a clinical oxygen mask that will poll for respiration rate using temperature deviations in a closed chamber. If a patient stops breathing for over 5 seconds, the microcontroller will signal an alarm. This device can be used to detect Sleep Apnea, Respiration Rate, and Sudden Infantile Death Syndrome (SUDS). BME680 sensor data is also included within this repository for personal use. 
+This current iteration of this project has been modified to detect respiration rate by using measured deviations in temperature and pressure. This project uses an STM324F and a Bosch BME680 680 sensor embedded within a clinical oxygen mask that will poll for respiration rate using temperature deviations in a closed chamber. If a patient stops breathing for over 5 seconds, the microcontroller will signal an alarm. This device can be used to detect Sleep Apnea, Respiration Rate, and Sudden Infantile Death Syndrome (SUDS). BME680 sensor data is also included within this repository for personal use. 
 
 # What you'll need:
 
