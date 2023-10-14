@@ -83,5 +83,3 @@ To view the polling temperature and humidity values, install Tera Term, connect 
    ![Output Image](https://user-images.githubusercontent.com/99779654/221008001-c5fbdf26-e28b-4a90-9e35-07d78068423e.png)
 
 > **Note**: Pressure values are not being outputted due to the equilibrium of the closed chamber and the corresponding polling rate of this device.
-
-
